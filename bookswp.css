@@ -1,0 +1,26 @@
+.browse-tax { text-align: center; }
+.browse-tax li.cat-item {
+    display: inline-block;
+    list-style: none;
+    margin:1px;
+    min-width: 1.5em; height: 1.375em;
+    text-align: center;
+    font-size:75%;
+    border-radius: 2px;
+}
+.browse-tax li.cat-item a {
+    background: #910b0e;
+    width:100%; height:100%;
+    display: block;
+    color:white;
+    padding:0;
+    border-radius: 2px;
+}
+.browse-tax li.cat-item a:hover { background: black; }
+.browse-tax li.cat-item.current-cat a {
+    background: black;
+    pointer-events: none;
+    cursor: default;
+}
+.browse-tax li.blank-cat { background: #ccc; }
+#browse-top { margin-bottom:0.5em; }
